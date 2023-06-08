@@ -1,0 +1,137 @@
+.largeBox {
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 200px;
+    
+    width: 100%;
+    background-color: #1E1E24;
+
+    z-index: 999;
+
+}
+
+.headerContainer {
+
+    position: absolute;
+    width:  65%;
+    min-width: 800px;
+
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    left: 50%;
+    bottom: 25%;
+    transform: translate(-50%, 50%);
+
+    z-index: 999;
+
+}
+
+.name {
+
+    margin-top: 30px;
+    font-size: 50px;
+    color: white;
+
+}
+
+.smallBox {
+
+    height: 30px;
+
+
+    background-color: #1E1E24;
+    width: 200px;
+    margin: 15px;
+    border-radius: 0;
+    
+    
+
+    transform: perspective(1px) translateZ(0);
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 700;
+    color: white;
+
+    border-width: 0px;
+
+    height: 50px;
+    width: 300px;
+    font-size: 26px;
+
+    /*
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    overflow: hidden;
+    */
+    
+}
+
+.smallBox::after {
+  
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #ffffff;
+    transform: scaleY(0);
+    
+
+    
+    transition: transform 0.3s ease-out;
+}
+
+.smallBox:hover {
+
+    color: rgb(0, 0, 0);
+    
+  }
+
+.smallBox:hover:after {
+
+  transition: transform 0.3s ease-in;
+  transform-origin: 0 0;
+  transform: scaleY(1);
+
+}
+
+.smallBox:not(:hover)::after {
+
+  transform-origin: 0 100%;
+  transform: scaleY(0);
+
+}
+
+.smallBox:focus{
+
+    outline: white;
+
+}
+
+.text {
+
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.about-container {
+    transition: all 0.5s ease-out;
+    transform: translateY(100%);
+    margin: 0;
+
+}

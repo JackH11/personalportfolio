@@ -1,0 +1,81 @@
+
+
+
+
+
+.header {
+
+    margin-top: 10px;
+    height: 40px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+.imagerow {
+   
+    margin-bottom: 5px;
+    margin-top: 20px;    
+    display: inline-block;
+
+}
+
+.imageBox {
+
+    display: inline-block;
+    max-width: 300px;
+    max-height: 150px;
+    transition: all 0.5s ease-in-out;
+    margin: 10px;
+    
+
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageBox:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+.image {
+
+
+    max-width: 300px;
+    max-height: 150px;
+    background-color: orange;
+    display: block;
+    
+
+}
+
+
+
+.image1 {
+
+
+    width: 400px;
+    object-fit: cover;
+
+}
+
+.image2 {
+
+    left: 100px;
+}
+
+.description {
+
+    text-align: center;
+
+    padding: 10px 20px;
+
+
+}
+
+
+
