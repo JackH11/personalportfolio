@@ -29,7 +29,7 @@ function Projects() {
                     React Website
                 </div>
                 <div class='sub-body'>
-                    Developed a website using react, vite, and node. Had a lot of fun!  
+                    Developed a website using react, vite, and node. Had a lot of fun!   
                 </div>
             </div>
             <img src={vite} class='picture vite'></img>
