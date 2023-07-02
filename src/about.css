@@ -2,7 +2,7 @@
 
     position: absolute;
     width: 100%;
-    height: 2500px;
+    height: 3000px;
     top: 200px;
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     
@@ -35,6 +35,7 @@
 
     display:'flex';
     align-items: center;
+
     position: relative;
     height: 500px;
     width:  65%;
@@ -155,3 +156,238 @@
     transform: scale(1.1);
 
 }
+
+
+.subsection1 {
+
+    display:flex;
+    position: relative;
+    height: 525px;
+   
+    width: 55%;
+    min-width: 600px;
+
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    padding: 100px;
+
+    border-radius: 10px;
+
+    white-space: nowrap;
+
+}
+
+.subsection2 {
+
+    display:flex;
+    position: relative;
+    height: 550px;
+   
+    width: 55%;
+    min-width: 600px;
+
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    padding: 100px;
+
+    border-radius: 10px;
+
+    white-space: nowrap;
+
+}
+
+.subsection3 {
+
+    display:flex;
+    position: relative;
+    height: 475px;
+   
+    width: 55%;
+    min-width: 600px;
+
+    background-color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    padding: 100px;
+
+    border-radius: 10px;
+
+    white-space: nowrap;
+
+}
+
+.subsection4 {
+
+    display:flex;
+    position: relative;
+    height: 525px;
+    justify-content: center;
+    align-items: center;
+   
+    width: 100%;
+    min-width: 600px;
+
+    background-color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    padding: 100px;
+
+    border-radius: 10px;
+
+    white-space: nowrap;
+
+}
+
+.logo1 {
+
+    width: 100%;
+    height: 100%;
+    text-align: left;
+
+}
+
+.logo11 {
+
+    width: 175px;
+    height: 100%;
+    display: inline-block;
+    
+
+}
+
+.logo12{
+
+    vertical-align: top;
+    display: inline-flex;
+    flex-direction: column;
+    width: calc(100% - 175px);
+    height:100%;
+
+}
+
+
+
+.logo12header1 {
+
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    position: relative;
+
+}
+
+.logo12headerp1 {
+
+    position: absolute;
+    top:-10px;
+    
+}
+
+
+.logo12header {
+
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    position: relative;
+    margin-top: 5px;
+}
+
+
+
+.logo12headerp {
+
+    position: absolute;
+    top:-10px;
+    white-space: pre-wrap;
+}
+
+.logo12subheader {
+
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    display: block;
+    position: relative;
+}
+
+.logo12subheaderp {
+
+    position: absolute;
+    top:0px;
+    font-size: 16px;
+
+}
+
+.logo12body {
+
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    display: block;
+    position: relative;
+
+}
+
+.logo12bodyp {
+
+    position: absolute;
+    top:0px;
+    font-size: 16px;
+    white-space: pre-wrap;
+    line-height: 1.75;
+
+}
+
+
+
+
+.custom-list {
+
+    list-style-type: disc;
+
+}
+
+
+.giffinLogo {
+
+    max-width: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
