@@ -9,13 +9,11 @@ import kaggle from './assets/about/k.png';
 import giffinLogo from './assets/about/giffin-logo-color.png';
 import msuLogo from './assets/about/msulogo.png';
 import attlogo from './assets/about/att-logo-1.png';
-
-import HorizontalScrollBar from './HorizontalScrollBar';
-
-import Card from './card';
-import Unicorn from './assets/projects/kaggle EDA/Unicorn Companies.png';
+import skills from './assets/about/skillPictures.png';
 
 
+import EDAScrollBar from './horizontalEDA';
+import ProjectsScrollBar from './horizontalProjects';
 
 
 
@@ -210,31 +208,39 @@ function About() {
                 </div>
             </div>
             <div class='subsection4'>
-                
-                <div style={{display:'flex', justifyContent:'center'}}>
-                <HorizontalScrollBar>
-                    <Card title="Filler Beginning"/>
-                    <Card title="Card 2"/>
-                    <div className="card">
-                        <img src={Unicorn}/>
-                        <h3>Card 3</h3>
-                    </div>
-                    <Card title="Card 4"/>
-                    <Card title="Card 5"/>
-                    <Card title="Card 6"/>
-                    <Card title="Card 7"/>
-                    <Card title="Card 8"/>
-                    <Card title="Card 9"/>
-                    <Card title="Card 10"/>
-                    <Card title="Card 11"/>
-                    <Card title="Filler End"/>
-                </HorizontalScrollBar>
-
+                <div className='edaHeader'>
+                    Exploratory Data Analysis
                 </div>
-
-
-
-
+                <EDAScrollBar></EDAScrollBar>
+            </div>
+            <div class='subsection5'>
+                <div className='skillHeader'>
+                    My Top Skills
+                </div>
+                <div>
+                    <img className='skills' src={skills}></img>
+                </div>
+                
+            </div>
+            <div class='subsection4'>
+                <ProjectsScrollBar></ProjectsScrollBar>
+            </div>
+            <div class='subsection6'>
+                <div className='skillHeader'>
+                    Ways to Connect
+                </div>
+                <div className='logoContainer'>
+                    <div>
+                        <a href = "https://www.linkedin.com/in/jackhasselbring">
+                            <img src={linkedIn} class='items2 linkedIn2'></img>
+                        </a>  
+                    </div>
+                    <div>
+                        <a href = "https://www.kaggle.com/jackhasselbring">
+                            <img src={kaggle} class='items2 linkedIn2'></img>
+                        </a>
+                    </div>
+                </div>
             </div>
             <div class='subsection' style={{display:'none'}}>
                 <div class='connectText'>
@@ -246,7 +252,6 @@ function About() {
                 <a href = "https://www.kaggle.com/jackhasselbring">
                     <img src={kaggle} class='items kaggle'></img>
                 </a>
-
             </div>
 
 

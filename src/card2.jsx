@@ -1,5 +1,5 @@
 import React from 'react';
-import './card.css';
+import './card2.css';
 
 const Card = ({ title, image }) => {
   return (
