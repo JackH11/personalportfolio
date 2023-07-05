@@ -21,13 +21,13 @@ function Dropdown() {
             </div>
             <div class="headerContainer">
                 
-                <Button className="smallBox" onClick={() => setSelectedPage('About')}>
+                <Button className="smallBox" onClick={() => setSelectedPage('About')} style={{display:'none'}}>
                     About
                 </Button>
-                <Button className="smallBox" onClick={() => setSelectedPage('Projects')}>
+                <Button className="smallBox" onClick={() => setSelectedPage('Projects')} style={{display:'none'}}>
                     Projects
                 </Button>
-                <Button className="smallBox" onClick={() => setSelectedPage('Reflections')}>
+                <Button className="smallBox" onClick={() => setSelectedPage('Reflections')} style={{display:'none'}}>
                     Reflections
                 </Button>
             </div>

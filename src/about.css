@@ -175,8 +175,7 @@
     left: 50%;
     transform: translate(-50%, 0);
 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px;
 
     border-radius: 10px;
 
@@ -201,8 +200,7 @@
     left: 50%;
     transform: translate(-50%, 0);
 
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px;
 
     border-radius: 10px;
 
@@ -227,8 +225,8 @@
     left: 50%;
     transform: translate(-50%, 0);
 
-    padding-top: 100px;
-    padding-bottom: 100px;
+
+    padding: 100px;
 
     border-radius: 10px;
 
