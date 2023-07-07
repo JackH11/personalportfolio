@@ -22,7 +22,7 @@ function EDA() {
 
         <div class='container'>
             <div class='header'>
-                Exploratory Data Analysis on Kaggle
+                Exploratory Data Analysis on Kaggles
             </div>  
             <div class='imagerow'>
                 <div class='imageBox'>
