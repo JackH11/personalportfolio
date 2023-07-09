@@ -25,7 +25,9 @@ function About() {
     return (
     <div>
         <div class='containerabout'>
-                    
+            <div class='subsection7'>
+                <p>My Experience</p>
+            </div>
             <div class='subsection3'>
                 <div class='logo1'>
                     <div class='logo11'>
@@ -41,13 +43,9 @@ function About() {
                             <div class='logo12headerp'>
                                 Network Engineer
                             </div>
-                        </div>
-                        <div class='logo12subheader'>
                             <div class='logo12subheaderp'>
                                 Dallas, TX
                             </div>
-                        </div>
-                        <div class='logo12body'>
                             <div class='logo12bodyp'>
 
 
@@ -55,8 +53,8 @@ function About() {
                                 rotate and work in different areas of the company.<br></br><br></br>
 
                                 Over the past year I have been picking up new skills and seeing first hand how new initiatives are driven at a company as large as AT&T.
-                                
-                                
+
+
                                 <br></br><br></br>
 
                                 Takeaways
@@ -79,6 +77,14 @@ function About() {
 
 
                             </div>
+
+
+                        </div>
+                        <div class='logo12subheader'>
+                            
+                        </div>
+                        <div class='logo12body'>
+
                         </div>
                         
                             
@@ -101,13 +107,9 @@ function About() {
                             <div class='logo12headerp'>
                                 B.S. Mechanical Engineering, Minor in Computer Science and German
                             </div>
-                        </div>
-                        <div class='logo12subheader'>
                             <div class='logo12subheaderp'>
                                 Lansing, MI
                             </div>
-                        </div>
-                        <div class='logo12body'>
                             <div class='logo12bodyp'>
 
 
@@ -140,7 +142,9 @@ function About() {
 
 
                             </div>
+
                         </div>
+
                         
                             
                     </div>
@@ -162,13 +166,9 @@ function About() {
                             <div class='logo12headerp'>
                                 Mechanical Engineering Intern, Summer 2019 and 2020
                             </div>
-                        </div>
-                        <div class='logo12subheader'>
                             <div class='logo12subheaderp'>
                                 Auburn Hills, MI and Detroit, MI
                             </div>
-                        </div>
-                        <div class='logo12body'>
                             <div class='logo12bodyp'>
 
 
@@ -202,6 +202,12 @@ function About() {
 
                             </div>
                         </div>
+                        <div class='logo12subheader'>
+                            
+                        </div>
+                        <div class='logo12body'>
+                            
+                        </div>
                         
                             
                     </div>
@@ -209,7 +215,7 @@ function About() {
             </div>
             <div class='subsection4'>
                 <div className='edaHeader'>
-                    Exploratory Data Analysis
+                    My work with Data
                 </div>
                 <EDAScrollBar></EDAScrollBar>
             </div>
@@ -223,6 +229,9 @@ function About() {
                 
             </div>
             <div class='subsection4'>
+                <div className='edaHeader'>
+                    My Projects
+                </div>
                 <ProjectsScrollBar></ProjectsScrollBar>
             </div>
             <div class='subsection6'>
