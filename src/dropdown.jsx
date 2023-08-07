@@ -4,6 +4,7 @@ import React, {useEffect, useState} from "react";
 import About from './about'
 import Projects from './projects'
 import Reflections from './relfections';
+import personalPhoto from './assets/about/Personal Photo 3.jpg'
 
 
 function Dropdown() {
@@ -17,7 +18,7 @@ function Dropdown() {
     <div>
         <div class="largeBox">
             <div class='name'>
-                Jack Hasselbring
+                
             </div>
             <div class="headerContainer">
                 

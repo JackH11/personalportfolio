@@ -10,6 +10,7 @@ import giffinLogo from './assets/about/giffin-logo-color.png';
 import msuLogo from './assets/about/msulogo.png';
 import attlogo from './assets/about/att-logo-1.png';
 import skills from './assets/about/skillPictures.png';
+import personalPhoto from './assets/about/Personal Photo 3.jpg'
 
 
 import EDAScrollBar from './horizontalEDA';
@@ -25,6 +26,18 @@ function About() {
     return (
     <div>
         <div class='containerabout'>
+            <div class='subsection9'>
+                <div style={{'display':'flex','alignItems':'center','justifyContent':'center','background':'#1E1E24',width:'100%',alignContent:'center'}}>
+                    <img src={personalPhoto} class='personalImage'></img>
+
+                    <div class='logo12headerp3'>
+                         Hi, I'm Jack Hasselbring
+                    </div>
+
+                </div>
+            </div>
+
+
             <div class='subsection7'>
                 <p>My Experience</p>
             </div>
